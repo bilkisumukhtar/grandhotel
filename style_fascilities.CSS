@@ -1,0 +1,109 @@
+ {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #ddd;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url();
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+.navbar{
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+.icon{
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo{
+  color: #180202;;
+  font-size: 35px;
+  font-family: Lucida Handwriting;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+  
+}
+
+.menu{
+  width: 400px;
+  float: left;
+  height: 70px;   
+}
+
+ul{
+float: left;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+ul li a{
+  
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+  
+}
+
+ul li a:hover{
+ color: #180202;
+}
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
